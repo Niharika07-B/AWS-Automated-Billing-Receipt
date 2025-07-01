@@ -18,7 +18,8 @@ This project is a fully automated, serverless billing system that extracts data 
 
 ## 📐📦 AWS Service Architecture
 
-![recioet-Pica](https://github.com/user-attachments/assets/e27e38a1-521e-4884-a84b-ba73e884ea8f)
+![recioet-Pica](https://github.com/user-attachments/assets/2432fb4e-d79e-4321-8949-6412b104623d)
+
 
 🧾 How It Works:
 
@@ -88,9 +89,13 @@ Environment Variables: One small typo in a key name caused a silent fail — pai
 
 ## 🖼️ 📷 Receipt Flow in Action
 
-<img width="603" alt="Screenshot 2025-07-01 at 12 25 15" src="https://github.com/user-attachments/assets/6c5a5ac9-3a07-45c0-834a-055dbec4058e" />
+<img width="603" alt="Screenshot 2025-07-01 at 12 25 15" src="https://github.com/user-attachments/assets/aac8ffb2-f304-4bb4-9e54-93dc6f4dfda1" />
 
-<img width="603" alt="Screenshot 2025-07-01 at 12 31 28" src="https://github.com/user-attachments/assets/f6993249-5539-4fdc-afa8-0a705d807504" />
+<img width="597" alt="Screenshot 2025-07-01 at 13 06 11" src="https://github.com/user-attachments/assets/44fcc0dd-eff3-4c12-b890-6cfa65dadc58" />
+
+
+
+
 
 
 ## 🔁 Workflow Overview
