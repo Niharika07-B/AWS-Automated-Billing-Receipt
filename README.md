@@ -1,10 +1,12 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=200&section=header&text=Automated%20Billing%20Receipt&fontSize=35&fontColor=ffffff" width="2600"/>
+
 # 📊 From Upload to Inbox — Billing Automation with AWS
 
 This project is a fully automated, serverless billing system that extracts data from uploaded PDFs/images and sends real-time billing receipt emails — powered by AWS Cloud and Machine Learning.
 
 ---
 
-## 🚀 Tech Stack
+# 🚀 Tech Stack
 
 - **Amazon S3** – For storing uploaded bills (PDFs/Images)
 - **AWS Lambda** – Core logic for processing and automation
@@ -16,7 +18,7 @@ This project is a fully automated, serverless billing system that extracts data 
 
 ---
 
-## 📐📦 AWS Service Architecture
+# 📐📦 AWS Service Architecture
 
 ![recioet-Pica](https://github.com/user-attachments/assets/2432fb4e-d79e-4321-8949-6412b104623d)
 
@@ -33,8 +35,8 @@ This project is a fully automated, serverless billing system that extracts data 
 
 *Emailing: Finally, the data is formatted and sent to the user via Amazon SES as a receipt summary.*
 
-
-## 💡 Features
+---
+# 💡 Features
 
 - Upload a bill (PDF or image) to S3
 - Automatically trigger a Lambda function
@@ -44,7 +46,7 @@ This project is a fully automated, serverless billing system that extracts data 
 - 100% Serverless and real-time automation
 
 ---
-## 🛠️ Setup Instructions
+# 🛠️ Setup Instructions
 ⚠️ Make sure you have appropriate AWS IAM access before proceeding.
 
 1.Create an S3 Bucket
@@ -72,7 +74,7 @@ This project is a fully automated, serverless billing system that extracts data 
 
 ---
 
-## 📌 Key Takeaways
+# 📌 Key Takeaways
 
 S3: Learned how to trigger workflows on file uploads
 
@@ -85,20 +87,19 @@ Lambda: Became confident in deploying/debugging serverless functions
 Textract: Got hands-on with ML for document parsing
 
 Environment Variables: One small typo in a key name caused a silent fail — painful but educational 😅
+---
 
-
-## 🖼️ 📷 Receipt Flow in Action
+# 🖼️ 📷 Receipt Flow in Action
 
 <img width="603" alt="Screenshot 2025-07-01 at 12 25 15" src="https://github.com/user-attachments/assets/aac8ffb2-f304-4bb4-9e54-93dc6f4dfda1" />
 
 <img width="597" alt="Screenshot 2025-07-01 at 13 06 11" src="https://github.com/user-attachments/assets/44fcc0dd-eff3-4c12-b890-6cfa65dadc58" />
 
 
+---
 
 
-
-
-## 🔁 Workflow Overview
+# 🔁 Workflow Overview
 
 ```mermaid
 graph TD;
@@ -106,6 +107,31 @@ graph TD;
     B --> C[🧠Amazon Textract Extracts Data]
     C --> D[💾Data Stored in DynamoDB]
     D --> E[✉️Email Sent via AmazonSES]
+```
+---
+# 🧑‍💻 Connect With Me  
+Hey! I'm Niharika B – Who loves building emotionally intelligent, visually rich applications ✨  
 
+Let's connect and collaborate as diving into the ocean of knowledge brings nature and technology together 🚀:  
 
+<div align="center">
+  <a href="mailto:niharika.bandaru5002@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/bandaru-niharika/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://instagram.com/17_n.i.h.a.r.i.k.a_07">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="https://medium.com/@niharika.bandaru5002">
+    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"/>
+  </a>
+  <a href="https://x.com/NihaNiharika777">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
+</div>
+
+<!-- Footer Banner -->
+<img width="1444" src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=120&section=footer"/>
 
