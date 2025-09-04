@@ -10,7 +10,7 @@ This project is a fully automated, serverless billing system that extracts data 
  
 - **Amazon S3** – For storing uploaded bills (PDFs/Images)
 - **AWS Lambda** – Core logic for processing and automation
-- **Amazon Textract** – ML model for extracting key-value data from documents
+- **Amazon Textract** – ML model for extracting key-value data from documents 
 - **Amazon DynamoDB** – Stores structured billing data
 - **Amazon SES** – Sends email receipts
 - **IAM** – Secure roles and access control between services
