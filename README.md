@@ -5,7 +5,7 @@
 This project is a fully automated, serverless billing system that extracts data from uploaded PDFs/images and sends real-time billing receipt emails — powered by AWS Cloud and Machine Learning.
 
 ---
-
+ 
 # 🚀 Tech Stack
  
 - **Amazon S3** – For storing uploaded bills (PDFs/Images)
