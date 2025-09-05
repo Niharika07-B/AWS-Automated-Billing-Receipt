@@ -7,7 +7,7 @@ This project is a fully automated, serverless billing system that extracts data 
 ---
  
 # 🚀 Tech Stack
- 
+  
 - **Amazon S3** – For storing uploaded bills (PDFs/Images)
 - **AWS Lambda** – Core logic for processing and automation
 - **Amazon Textract** – ML model for extracting key-value data from documents 
