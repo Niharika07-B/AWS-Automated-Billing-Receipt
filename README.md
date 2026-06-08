@@ -13,7 +13,7 @@ This project is a fully automated, serverless billing system that extracts data 
 - **Amazon Textract** – ML model for extracting key-value data from documents  
 - **Amazon DynamoDB** – Stores structured billing data
 - **Amazon SES** – Sends email receipts
-- **IAM** – Secure roles and access control between services
+- **IAM** – Secure roles and access control between services 
 - **Python** – Used for Lambda functions
 
 ---
