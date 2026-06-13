@@ -15,7 +15,7 @@ This project is a fully automated, serverless billing system that extracts data 
 - **Amazon SES** – Sends email receipts
 - **IAM** – Secure roles and access control between services 
 - **Python** – Used for Lambda functions
-
+ 
 ---
 
 # 📐📦 AWS Service Architecture
